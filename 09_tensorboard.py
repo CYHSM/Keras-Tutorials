@@ -2,7 +2,7 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout
 from keras.optimizers import RMSprop
 from keras.datasets import mnist
-from keras import initializations
+from keras import initializers
 from keras.utils import np_utils
 from keras.callbacks import TensorBoard
 
